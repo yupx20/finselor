@@ -69,7 +69,7 @@ Navigate to **http://localhost:3000**
 
 **Demo credentials:** `demo@finselor.com` / `demo1234`
 
-## 🔧 Environment Variables
+## Environment Variables
 
 ### Backend (`backend/.env`)
 
