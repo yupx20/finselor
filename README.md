@@ -1,4 +1,4 @@
-# 🧠 Finselor — Smart Personal Finance Manager
+# Finselor — Smart Personal Finance Manager
 
 A fullstack personal finance management application with AI-powered investment advice.
 
@@ -7,15 +7,15 @@ A fullstack personal finance management application with AI-powered investment a
 ![Tech Stack](https://img.shields.io/badge/PostgreSQL-16-336791?logo=postgresql)
 ![Tech Stack](https://img.shields.io/badge/Gemini_AI-Integrated-4285F4?logo=google)
 
-## ✨ Features
+## Features
 
-- **📊 Cashflow Tracker** — Record income/expenses with category classification and monthly analytics
-- **🎯 Savings Goals** — Set targets with visual progress tracking and deposit management
-- **🤖 AI Investment Advisor** — Get AI-powered asset allocation based on your surplus and risk profile
-- **📥 Data Export** — Download transactions as styled Excel or CSV files
-- **🔐 Secure Auth** — JWT authentication with bcrypt password hashing
+- **Cashflow Tracker** — Record income/expenses with category classification and monthly analytics
+- **Savings Goals** — Set targets with visual progress tracking and deposit management
+- **AI Investment Advisor** — Get AI-powered asset allocation based on your surplus and risk profile
+- **Data Export** — Download transactions as styled Excel or CSV files
+- **Secure Auth** — JWT authentication with bcrypt password hashing
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -86,7 +86,7 @@ Navigate to **http://localhost:3000**
 |---|---|---|
 | `NEXT_PUBLIC_API_URL` | `http://localhost:8000/api/v1` | Backend API URL |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 finselor/
@@ -106,7 +106,7 @@ finselor/
 └── README.md
 ```
 
-## 🔒 Security & Privacy
+## Security & Privacy
 
 - Passwords hashed with **bcrypt**
 - API endpoints protected by **JWT** tokens
@@ -114,6 +114,6 @@ finselor/
 - AI prompts are **fully anonymized** — no PII is sent to Google Gemini
 - Data architecture follows **UU PDP** principles
 
-## 📜 License
+## License
 
 MIT
