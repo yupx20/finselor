@@ -12,6 +12,7 @@ from app.models.user import User
 from app.models.category import Category
 from app.models.transaction import Transaction
 from app.models.savings_goal import SavingsGoal
+from app.models.ai_log import AIRecommendationLog  # noqa: F401 — needed for relationship resolution
 
 # Master categories
 CATEGORIES = [
