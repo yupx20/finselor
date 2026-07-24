@@ -42,5 +42,8 @@ async def get_db():
 
 async def create_tables():
     """Create all tables (development only — use Alembic in production)."""
+    # Ensure all models are imported and registered with Base before creating tables
+    import app.models  # noqa: F401
+
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)

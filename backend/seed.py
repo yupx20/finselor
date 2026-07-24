@@ -8,11 +8,7 @@ from sqlalchemy import select
 
 from app.core.database import async_session_factory, create_tables
 from app.core.security import hash_password
-from app.models.user import User
-from app.models.category import Category
-from app.models.transaction import Transaction
-from app.models.savings_goal import SavingsGoal
-from app.models.ai_log import AIRecommendationLog  # noqa: F401 — needed for relationship resolution
+from app.models import User, Category, Transaction, SavingsGoal, AIRecommendationLog
 
 # Master categories
 CATEGORIES = [

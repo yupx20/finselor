@@ -10,11 +10,7 @@ from app.core.config import get_settings
 from app.core.database import create_tables
 
 # Import all models to register them with SQLAlchemy
-from app.models.user import User  # noqa: F401
-from app.models.category import Category  # noqa: F401
-from app.models.transaction import Transaction  # noqa: F401
-from app.models.savings_goal import SavingsGoal  # noqa: F401
-from app.models.ai_log import AIRecommendationLog  # noqa: F401
+import app.models  # noqa: F401
 
 # Import routers
 from app.api.v1.auth import router as auth_router
